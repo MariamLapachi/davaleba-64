@@ -49,6 +49,12 @@ p {
     color: #616161;
 }
 
-input[type="submit"]:hover {
-    background-color: #0056b3;
+input[type="button"]:hover {
+    border-radius: 22.5px;
+    color: red;
+}
+
+input[type="email"]:hover,
+input[type="password"]:hover {
+    border-color: #BBB400;
 }
